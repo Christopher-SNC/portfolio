@@ -161,3 +161,196 @@ main section p {
 #conhecimentos li:hover {
     background-color: #d3e8f9;
 }
+
+
+/* Cartoes dos projetos */
+#projetos article {
+    background-color: #f4f7fb;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-left: 4px solid #17639b;
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* Titulos dos projetos */
+#projetos article h3 {
+    color: #173b61;
+    font-size: 21px;
+    margin-bottom: 15px;
+}
+
+/* Paragrafos dos projetos */
+#projetos article p {
+    font-size: 15px;
+    line-height: 1.8;
+    margin-bottom: 12px;
+}
+
+/* Destaque das tecnologias */
+#projetos article strong {
+    color: #17639b;
+}
+
+/* Efeito ao passar o mouse */
+#projetos article:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.10);
+}
+
+
+/* Links da secao Contato */
+#contato a {
+    color: #17639b;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s;
+    overflow-wrap: anywhere;
+}
+
+/* Efeito ao passar o mouse */
+#contato a:hover {
+    color: #102d50;
+    text-decoration: underline;
+}
+
+/* Destaque ao navegar pelo teclado */
+#contato a:focus-visible {
+    outline: 2px solid #17639b;
+    outline-offset: 4px;
+    border-radius: 3px;
+}
+
+
+/* Rodape do portfolio */
+footer {
+    background-color: #102d50;
+    color: #ffffff;
+    text-align: center;
+    padding: 25px 20px;
+    margin-top: 40px;
+}
+
+/* Texto do rodape */
+footer p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+
+/* Melhora a navegacao por links internos */
+main section {
+    scroll-margin-top: 110px;
+}
+
+/* Responsividade para tablets e celulares */
+@media (max-width: 768px) {
+
+    header {
+        padding: 45px 20px;
+    }
+
+    header h1 {
+        font-size: 28px;
+    }
+
+    header p {
+        font-size: 15px;
+    }
+
+    nav ul {
+        gap: 8px;
+        padding: 12px;
+    }
+
+    nav a {
+        font-size: 14px;
+        padding: 8px 10px;
+    }
+
+    main {
+        margin: 25px auto;
+        padding: 0 15px;
+    }
+
+    main section {
+        padding: 22px;
+        margin-bottom: 20px;
+    }
+
+    main section h2 {
+        font-size: 23px;
+    }
+
+    #projetos article {
+        padding: 20px;
+    }
+}
+
+/* Responsividade para celulares pequenos */
+@media (max-width: 480px) {
+
+    header {
+        padding: 35px 15px;
+    }
+
+    header h1 {
+        font-size: 24px;
+    }
+
+    header p {
+        font-size: 14px;
+    }
+
+    nav ul {
+        gap: 5px;
+        padding: 10px 5px;
+    }
+
+    nav a {
+        font-size: 12px;
+        padding: 7px 8px;
+    }
+
+    main {
+        margin: 20px auto;
+        padding: 0 10px;
+    }
+
+    main section {
+        padding: 18px;
+    }
+
+    main section h2 {
+        font-size: 21px;
+    }
+
+    #sobre img {
+        max-width: 100%;
+    }
+
+    #conhecimentos li {
+        padding: 8px 12px;
+        font-size: 13px;
+    }
+
+    #projetos article {
+        padding: 15px;
+    }
+
+    #projetos article h3 {
+        font-size: 18px;
+    }
+
+    #projetos article p {
+        font-size: 14px;
+    }
+
+    footer {
+        padding: 20px 15px;
+    }
+
+    footer p {
+        font-size: 12px;
+    }
+}
