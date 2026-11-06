@@ -164,7 +164,7 @@ main section p {
 
 
 /* Cartoes dos projetos */
-#projetos article {
+.cartao-projeto {
     background-color: #f4f7fb;
     padding: 25px;
     margin-bottom: 20px;
@@ -174,26 +174,26 @@ main section p {
 }
 
 /* Titulos dos projetos */
-#projetos article h3 {
+.cartao-projeto h3 {
     color: #173b61;
     font-size: 21px;
     margin-bottom: 15px;
 }
 
 /* Paragrafos dos projetos */
-#projetos article p {
+.cartao-projeto p {
     font-size: 15px;
     line-height: 1.8;
     margin-bottom: 12px;
 }
 
 /* Destaque das tecnologias */
-#projetos article strong {
+.cartao-projeto strong {
     color: #17639b;
 }
 
 /* Efeito ao passar o mouse */
-#projetos article:hover {
+.cartao-projeto:hover {
     transform: translateY(-5px);
     box-shadow: 0 6px 18px rgba(0, 0, 0, 0.10);
 }
@@ -282,7 +282,7 @@ main section {
         font-size: 23px;
     }
 
-    #projetos article {
+    .cartao-projeto {
         padding: 20px;
     }
 }
@@ -334,15 +334,15 @@ main section {
         font-size: 13px;
     }
 
-    #projetos article {
+    .cartao-projeto {
         padding: 15px;
     }
 
-    #projetos article h3 {
+    .cartao-projeto h3 {
         font-size: 18px;
     }
 
-    #projetos article p {
+    .cartao-projeto p {
         font-size: 14px;
     }
 
