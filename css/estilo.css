@@ -1,0 +1,163 @@
+/* Configuracoes gerais da pagina */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo geral do site */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f7fb;
+    color: #243247;
+    line-height: 1.6;
+}
+
+/* Cabecalho principal */
+header {
+    background: linear-gradient(135deg, #102d50, #17639b);
+    color: white;
+    text-align: center;
+    padding: 65px 20px;
+}
+
+/* Nome principal */
+header h1 {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+/* Informacoes abaixo do nome */
+header p {
+    font-size: 17px;
+    margin-bottom: 8px;
+}
+
+
+/* Menu de navegacao */
+nav {
+    background-color: #ffffff;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+/* Organizacao dos links com Flexbox */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 15px 20px;
+}
+
+/* Aparencia dos links */
+nav a {
+    text-decoration: none;
+    color: #173b61;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 8px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Efeito ao passar o mouse */
+nav a:hover {
+    background-color: #17639b;
+    color: #ffffff;
+}
+
+
+/* Area principal do portfolio */
+main {
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+/* Cartoes das secoes */
+main section {
+    background-color: #ffffff;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+}
+
+/* Titulos das secoes */
+main section h2 {
+    color: #173b61;
+    font-size: 26px;
+    margin-bottom: 22px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #e5edf5;
+}
+
+/* Espacamento dos paragrafos */
+main section p {
+    margin-bottom: 15px;
+}
+
+/* Imagem da secao Sobre mim */
+#sobre img {
+    display: block;
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    margin: 0 auto 25px;
+    border-radius: 10px;
+}
+
+
+/* Cartao da formacao academica */
+#formacao article {
+    background-color: #f4f7fb;
+    border-left: 4px solid #17639b;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* Nome do curso */
+#formacao h3 {
+    color: #173b61;
+    margin-bottom: 12px;
+    font-size: 20px;
+}
+
+
+/* Subtitulos dos conhecimentos */
+#conhecimentos h3 {
+    color: #173b61;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-size: 19px;
+}
+
+/* Listas de conhecimentos com Flexbox */
+#conhecimentos ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+/* Etiquetas de tecnologias */
+#conhecimentos li {
+    background-color: #e8f2fb;
+    color: #17639b;
+    padding: 10px 18px;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+/* Efeito ao passar o mouse */
+#conhecimentos li:hover {
+    background-color: #d3e8f9;
+}
